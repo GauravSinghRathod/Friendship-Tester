@@ -10,7 +10,7 @@ function friendshipScoreFn() {
         showScore.innerHTML = "";
         let friendscore = Math.round(Math.random() * 100);
         let heading = document.createElement("h3");
-        heading.textContent = yourname.value + " and " + friend_name.value + "'s friendship score is " + friendscore + "💖";
+        heading.textContent = yourname.value + " and " + friend_name.value + " friendship score is " + friendscore + "💖";
         showScore.appendChild(heading);
 
         let para = document.createElement("p"); 
